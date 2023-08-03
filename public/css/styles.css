@@ -1,0 +1,69 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+.bg-yellow{
+    background-color: #EAC926;
+}
+.color-azul{
+    color: #03264C;
+}
+.color-celeste{
+    color:#1259c3;
+}
+.color-gris-oscuro{
+    color:#666;
+}
+.color-gris-claro{
+    color:#ebebeb;
+}
+.color-verde{
+    color:#39b54a;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+.titulares{
+    font-size: 24px;
+}
+.precios{
+    font-size: 18px;
+}
+.descuentos{
+    font-size: 16px;
+}
+.descripciones{
+    font-size: 16px;
+}
+.texto-normal{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+.burguer-menu{
+    text-align: center;
+    font-size: 25px;
+}
+.burguer-menu-2{
+    background-color: #1259c3;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+}
+
+.foot{
+    text-align: center;
+}
+
+.icon{
+    text-align: center;
+    color: #1259c3;
+    font-size: 2em;
+    margin: 10px;
+}
+
+.alinear{
+    text-align: center;
+}
