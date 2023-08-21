@@ -1,6 +1,11 @@
 *{
-    padding: 0px;
-    margin: 0px;
+    margin: 0%;
+    font-family: 'Indie Flower', cursive;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #ebebeb;
 }
 .bg-yellow{
     background-color: #EAC926;
@@ -34,8 +39,13 @@ body{
 .descuentos{
     font-size: 16px;
 }
+
+nav{
+    font-size: 12px;
+}
 .descripciones{
     font-size: 16px;
+    font-weight: bold;
 }
 .texto-normal{
     text-decoration: none;
@@ -52,7 +62,9 @@ body{
     border-radius: 5px;
     color: white;
 }
-
+.navegacion-completo{
+    display: none;
+}
 .foot{
     text-align: center;
 }
@@ -63,7 +75,251 @@ body{
     font-size: 2em;
     margin: 10px;
 }
-
-.alinear{
-    text-align: center;
+.logo{
+    width: 150px;
+    height:40px ;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    padding-top: 30px;
 }
+
+.img-art{
+    width: 100%;
+}
+.product-shadow {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+  }
+  .mr-1{
+    margin-right: 10px;
+  }
+.vw-90{
+    width: 90vw;
+}
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+.mb-10{
+    margin-bottom: 10px;
+}
+.art-color{
+    background-color: white;
+    border-radius: 5px;
+}
+.bs{
+    border-top: 1px solid #ebebeb;
+}
+.marg-15{
+    margin: 15px;
+    padding-bottom: 15px;
+}
+.envio{
+    color: #39b54a;
+}
+.env{
+    display: block;
+    font-size: 16px;
+    width: 25px;
+    height: 23px;
+    padding: 3px;
+    border: 1px solid #39b54a;
+    border-radius: 50%;
+    background-color: #FFF;
+    position: absolute;
+    text-align: center;
+    margin-top: -23px;
+    right: 15px;
+}
+.product-desc-box {
+    display: flex;
+
+    }
+    .my-1 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+      }
+.w-100{
+    width: 100%;
+    margin-left: 40px;
+}
+.gap{
+    gap: 10px;
+}
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex {
+    display: flex;
+}
+.p-1{
+    padding: 8px;
+}
+.relative {
+    position: relative;
+  }
+.flex-grow {
+    flex-grow: 1;
+  }
+
+.busqueda{
+    width: 100px;
+
+}
+.margin-bottom{
+    margin-bottom: 50px;
+}
+.margin-top{
+    margin-top: 30px;
+}
+
+/*Tablet*/
+@media(min-width: 768px) {
+    .nav-hedaer{
+        display: flex;
+        justify-content: space-between;
+    }
+    .compras{
+        display: flex;
+        max-width: 350px;
+        align-items: center;
+        text-align: right;
+    }
+    .m-0{
+        margin: auto;
+    }
+    .menu{
+        display: none;
+    }
+    .navegacion-completo{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 0px;
+        padding-bottom: 15px;
+    }
+    .navegacion-completo ul{
+        display: flex;
+    }
+    .navegacion-2{
+        margin-left: 20%;
+    }
+    .navegacion-completo li{
+        margin: 15px;
+    }
+    article{
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+
+    }
+    .primeros div{
+        width: 100px;
+        height: 100px;
+    }
+}
+
+.barra-busqueda{
+    justify-content: center;
+    align-items: center;
+}
+
+.br{
+    border-radius: 5px;
+    border: none;
+}
+.flex-direction{
+    flex-direction:column;
+}
+.align-center{
+    align-items: center;
+}
+.mt-15{
+    margin-bottom: 15px;
+}
+.pd{
+    padding: 10px;
+}
+.mr-1{
+    margin-right: 10px;
+}
+.mt-10{
+    margin-top: 10px;
+}
+.w-90{
+    width: 90%;
+}
+
+.btn{
+    background-color: #1259c3;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius:5px;
+    border: none;
+    color: #FFF;
+    font-weight: bold;
+    width: 60%;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 481px) {
+    /* tablet */
+    .md-w-50 {
+      width: 48%;
+    }
+    .logo{
+        width: 230px;
+        height:40px ;
+        margin-left: 25px;
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+    .w-90{
+        width: 90%;
+    }
+    
+    .btn{
+        background-color: #1259c3;
+        padding: 10px;
+        margin-top: 10px;
+        border-radius:5px;
+        border: none;
+        color: #FFF;
+        font-weight: bold;
+        width: 200px;
+        margin-bottom: 25px;
+    }
+    .w-lg{
+        width: 70%;
+    }
+    .text-lg{
+        font-size: 25px;
+    }
+    .font-lg{
+        font-size: 18px;
+    }
+
+  }
+  @media (min-width: 769px) {
+    /* laptop */
+    .lg-w-25 {
+      width: 23%;
+    }
+    .barra-busqueda{
+        margin-top: 40px;
+      }
+      .busqueda{
+        width: 350px;
+        height: 25px;
+        border-radius: 5px;
+        margin-right: 5px;
+        border: none;
+        margin-bottom: 10px;
+      }
+      .compras{
+        margin-right: 150px;
+      }
+      .logo{
+        width: 230px;
+        height:40px ;
+        margin-left: 25px;
+        margin-bottom: 30px;
+        padding-top: 30px;
+    }
+  }  
