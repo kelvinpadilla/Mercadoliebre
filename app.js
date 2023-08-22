@@ -2,7 +2,6 @@ const path = require('path')
 const publicPath = path.resolve(__dirname, './public')
 const express = require('express')
 const app = express();
-const PORT = 3001
 
 app.use(express.static(publicPath))
 
@@ -15,8 +14,8 @@ app.get("/register", function(req , res){
 app.get("/login", function(req , res){
     res.sendFile(path.resolve(__dirname, "./views/login.html"))
 })
-
-app.listen(PORT, ()=>{
-    console.log(`server andando en el puerto ${PORT}`)
+const port = process.env.PORT || 3001;
+app.listen(port, ()=>{
+    console.log(`server andando en el puerto ${port}`)
 }
 )
